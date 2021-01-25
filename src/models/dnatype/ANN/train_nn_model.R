@@ -6,8 +6,8 @@ library(caret)
 
 rm(list=ls())
 
-setwd("~/dev/cuAI/CUTG_ML_paper_datasets/") #yours will be different
-load("processed_data/1e3_5kingdoms/train_1e3_3dnatype.RData") #yours will be different
+setwd("/Users/nickpark/Desktop/codon-data") #yours will be different
+read.csv("codon_usage.csv") #yours will be different
 
 set.seed(123)
 
